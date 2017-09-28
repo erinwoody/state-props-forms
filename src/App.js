@@ -1,21 +1,31 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import BaseLayout from "./components/BaseLayout";
+import PlayList from "./components/PlayList";
+import PlayListForm from "./components/PlayListForm";
+import "./styles/App.css";
+import "./styles/Custom.css";
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <BaseLayout>
+        <div className="App">
+          <header id="page-top" className="masthead hero">
+            <div className="header-content">
+              <div className="header-content-inner">
+                <h1>
+                  Playlist
+                </h1>
+                <br />
+                {/* <h3>:|: Song Sharing Made Easy :|:</h3> */}
+              </div>
+            </div>
+          </header>
+          <PlayListForm />
+
+          <PlayList />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      </BaseLayout>
     );
   }
 }
-
-export default App;

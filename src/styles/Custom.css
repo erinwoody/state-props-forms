@@ -1,0 +1,27 @@
+.container-playlist-form {
+  background: transparent;
+}
+
+.btn {
+  color: white;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.list-items {
+  border: 1px solid white;
+  width: 40%;
+  background: transparent;
+  /* margin-left: 30%; */
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+#refresh-btn {
+  margin-left: 11.48%;
+}
