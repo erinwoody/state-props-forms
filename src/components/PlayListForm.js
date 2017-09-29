@@ -54,12 +54,9 @@ export default class PlayListForm extends Component {
     return (
       <section id="playlist-form">
         <div className="container-playlist-form">
-          <div>
+          <div className="playlist">
             <div className="col-lg-8 mx-auto text-center">
-              <h3 className="section-heading text-white">
-                Have a favorite song? Reccomendation?
-              </h3>
-
+            
               <form className="cf" onSubmit={this.addToList}>
                 <div className="half left cf">
                   <input

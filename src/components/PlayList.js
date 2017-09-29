@@ -33,10 +33,10 @@ export default class PlayList extends Component {
     let songs = this.state.songs;
     return (
       <header id="playlist" className="hero-2">
-        <div className="container">
+              <h3 className="entries-title">Latest Entries</h3>
+        <div className="container" id="playlist-form">
           <div className="entry-title">
             <form onSubmit={this.fetchData}>
-              <h3>Latest Entries</h3>
             </form>
           </div>
           <PlayListItem songs={songs} />

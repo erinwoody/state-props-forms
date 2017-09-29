@@ -1,27 +1,62 @@
+* {
+  text-align: center;
+  margin: auto;
+}
+
+
 .container-playlist-form {
   background: transparent;
+  margin: auto;
 }
 
 .btn {
   color: white;
+  margin-top: 10px;
 }
 
-.nav-item {
-  margin-left: 20px;
+#nav-item {
+  display: flex;
+  margin: auto;
 }
 
 .list-items {
   border: 1px solid white;
   width: 40%;
   background: transparent;
-  /* margin-left: 30%; */
-  margin-top: 10px;
+  text-align: center;
 }
 
-.container {
-  margin-top: 80px;
+.ml-auto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
 }
 
-#refresh-btn {
-  margin-left: 11.48%;
+#mainNav {
+  background-color: #42DCA3;
+  margin: auto;
 }
+
+#navbarResponsive {
+  width: 100%;
+  margin-left: 20em;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+.entries-title {
+  margin-top: 10%;
+  
+}
+
+.masthead {
+  margin-top: 5%;
+
+}
+
